@@ -1,9 +1,12 @@
 import React from 'react';
+import Message from './message';
+import MessageList from './message_list';
 
 const App = () => {
   return (
     <div className="app">
-      <p>React + Redux starter</p>
+      <Message />
+      <MessageList />
     </div>
   );
 };
